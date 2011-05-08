@@ -59,8 +59,8 @@ public class DrawingImpl implements Drawing {
     private boolean mWebglReady = false;
     
     private boolean mDo2d = false;
-    private boolean mIsDigraph = true;
-    private boolean mIsWeighted = true;
+    private boolean mIsDigraph = false;
+    private boolean mIsWeighted = false;
     private boolean mIsFlowChart = false;
  
     private double mLastRenderTime = 0;
